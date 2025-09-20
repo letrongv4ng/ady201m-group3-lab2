@@ -57,6 +57,7 @@ jupyter lab
 │   ├── interim/      # validated
 │   ├── processed/    # clean + features
 │   └── reports/      # figures, metrics
+├── src/              # helper modules for demo (api, charts, viz)
 ├── assets/
 │   └── lab2.png
 ├── requirements.txt
@@ -66,10 +67,10 @@ jupyter lab
 ## Flow
 
 1. Business understanding
-  - Đặt câu hỏi nghiệp vụ → “dự báo mưa/nắng ngắn hạn”.
+  - Đặt câu hỏi -> “dự báo mưa/nắng ngắn hạn”.
 
 2. Requirements & Collection
-  - Fetch API → lưu raw snapshot.
+  - Fetch API -> lưu raw snapshot.
 
 3. Understanding & Preparation
   - Schema check, clean, clip extreme, tạo features (temp_range, rain_flag, dow).
