@@ -57,7 +57,6 @@ jupyter lab
 │   ├── interim/      # validated
 │   ├── processed/    # clean + features
 │   └── reports/      # figures, metrics
-├── src/              # helper modules (collect, clean, features, model, viz)
 ├── assets/
 │   └── lab2.png
 ├── requirements.txt
