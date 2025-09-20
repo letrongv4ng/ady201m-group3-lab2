@@ -18,11 +18,11 @@
   <a href="#authors">Authors</a>
 </p>
 
-# Lab 2 — CRISP-DM Weather Forecast Pipeline
+# Lab 2 — **CRISP-DM** Weather Forecast Pipeline
 
-Repo này chứa **toàn bộ notebook Lab 2** môn ADY201m (thầy Hùng BK).  
-Pipeline dựa trên CRISP-DM, với dữ liệu từ **Open-Meteo API**.  
-Repo Lab 3 (UI app) **[link tại đây](https://github.com/letrongv4ng/ady201m-group3)**.
+- Repo này chứa **toàn bộ notebook Lab 2** môn ADY201m (thầy Hùng BK).  
+- Pipeline dựa trên CRISP-DM, với dữ liệu từ **Open-Meteo API**.  
+- Repo Lab 3 (UI app) **[link tại đây](https://github.com/letrongv4ng/ady201m-group3)**.
 
 ## Overview
 - 4 notebook: `2.1_business_understanding` tới `2.4_modeling_evaluation`.
@@ -45,6 +45,7 @@ jupyter lab
 ```
 
 ## Project Structure
+```
 .
 ├── notebooks/
 │   ├── 2.1_business_understanding.ipynb
@@ -61,19 +62,21 @@ jupyter lab
 │   └── lab2.png
 ├── requirements.txt
 └── README.md
+```
+
 ## Flow
 
 1. Business understanding
-- Đặt câu hỏi nghiệp vụ → “dự báo mưa/nắng ngắn hạn”.
+  - Đặt câu hỏi nghiệp vụ → “dự báo mưa/nắng ngắn hạn”.
 
 2. Requirements & Collection
-- Fetch API → lưu raw snapshot.
+  - Fetch API → lưu raw snapshot.
 
 3. Understanding & Preparation
-- Schema check, clean, clip extreme, tạo features (temp_range, rain_flag, dow).
+  - Schema check, clean, clip extreme, tạo features (temp_range, rain_flag, dow).
 
 4. Modeling & Evaluation
-- Heuristic baseline vs Logistic Regression, metric: Acc, F1, CM.
+  - Heuristic baseline vs Logistic Regression, metric: Acc, F1, CM.
 
 ## Limitations
 
