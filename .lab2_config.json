@@ -1,0 +1,7 @@
+{
+  "CITY": "London",
+  "city_slug": "london",
+  "RAW_DIR": "../data/raw",
+  "RAW_CITY_DIR": "../data/raw/london",
+  "DAYS": 7
+}

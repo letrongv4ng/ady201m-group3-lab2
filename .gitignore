@@ -1,0 +1,32 @@
+# .gitignore
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.so
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_save
+*.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/interim/*
+data/processed/*
+data/reports/*
+!data/.gitkeep
+
+# Virtual env
+.env
+.venv
+env/
+venv/
+
+# VSCode
+.vscode/
+
