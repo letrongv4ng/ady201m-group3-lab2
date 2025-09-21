@@ -1,7 +1,7 @@
 {
-  "CITY": "London",
-  "city_slug": "london",
+  "CITY": "Hanoi",
+  "city_slug": "hanoi",
   "RAW_DIR": "../data/raw",
-  "RAW_CITY_DIR": "../data/raw/london",
+  "RAW_CITY_DIR": "../data/raw/hanoi",
   "DAYS": 7
 }
