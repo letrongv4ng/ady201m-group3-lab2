@@ -3,5 +3,7 @@
   "city_slug": "hanoi",
   "RAW_DIR": "../data/raw",
   "RAW_CITY_DIR": "../data/raw/hanoi",
-  "DAYS": 7
+  "DAYS": 7,
+  "INTERIM_DIR": "../data/interim/hanoi",
+  "PROCESSED_DIR": "../data/processed/hanoi"
 }
